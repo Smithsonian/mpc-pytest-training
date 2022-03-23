@@ -1,4 +1,4 @@
-from mpc import *
+from mpc_training.mpc import *
 
 
 def test_chris():

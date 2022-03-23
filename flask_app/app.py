@@ -1,5 +1,5 @@
-from flask import Flask, jsonify, send_from_directory
-from mpc import *
+from flask import Flask, send_from_directory
+from mpc_training.mpc import *
 
 app = Flask(__name__)
 
