@@ -1,17 +1,13 @@
-from flask import Flask, send_from_directory
-from mpc_training.mpc import *
+from flask import Flask, send_from_directory, render_template
+from mpc_training import team
 
 app = Flask(__name__)
 
 
 @app.route("/")
-def hello_world():
-    return {"hello": "world"}
-
-
-@app.route("/mpc")
 def mpc():
-    return {"chris": chris()}
+    d = {"chris": team.chris()}
+    return render_template('base.html', d=d)
 
 
 @app.route("/static/<path:filename>")
