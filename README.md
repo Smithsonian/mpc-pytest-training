@@ -34,14 +34,15 @@ Repository used for interactive pytest training at the Minor Planet Center. Insi
 2. Pick your favorite mathematical operation (see Chris' sqrt example), but don't implement it quite yet. Just put a comment in the function to convey your goal. We will come back here once we write a test.
 3. Create a new python file in the tests directory called "test_yourname.py", feel free to copy and rename test_chris.py. Remember - pytest automatically finds files prefixed with "test_".
 4. Write a test to check your function's output, and run it to ensure it fails :)
-5. Now go back to mpc_training/team.py and implement your function, and test it manually by restarting flask ("ctrl-c", "flask run"), and refreshing the localhost browser.
-6. Add new files to git, Commit and Push your code
+5. Now go back to mpc_training/team.py and implement your function, and re-run your unit test until it passes.
+6. Now test your function manually by restarting flask ("ctrl-c", "flask run"), and refreshing the localhost page which should still be up in your browser. Make sure you see your output, and you are happy with it.  
+7. Add new files to git, Commit and Push your code
 
    `git add .`
 
    `git commit -m "Implemented function for your_name, and also a correponding unit test"`
 
    `git push`
-7. Check if your branch passes the tests running in [Github Actions](https://github.com/Smithsonian/mpc-pytest-training/actions) 
-8. Open a [new pull request](https://github.com/Smithsonian/mpc-pytest-training/pulls) for your branch by clicking the green "New Pull Request" button
-9. You are done!  Chris and N will be reviewing the pull requests and merging them.
+8. Check if your branch passes the tests running in [Github Actions](https://github.com/Smithsonian/mpc-pytest-training/actions) 
+9. Open a [new pull request](https://github.com/Smithsonian/mpc-pytest-training/pulls) for your branch by clicking the green "New Pull Request" button
+10. You are done!  Chris and N will be reviewing the pull requests and merging them.
