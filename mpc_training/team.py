@@ -3,10 +3,10 @@ import math
 
 
 def mpc_chris(input_int):
-    # Return the square root of the input
+    # Compute the square root of the input
     square_root = math.sqrt(input_int)
 
-    # Return a nice string for Flask to display, including some html tags.
+    # Return a nice string for Flask to display with the square root result.
     return f"The square root of <b>{input_int}</b> is {square_root}"
 
 
