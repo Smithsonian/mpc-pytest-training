@@ -1,45 +1,50 @@
 from datetime import datetime
+import math
 
 
-def chris():
-    return f"Hi, I'm Chris and today is {datetime.now()}"
+def mpc_chris(input_int):
+    # Return the square root of the input
+    square_root = math.sqrt(input_int)
+
+    # Return a nice string for Flask to display, including some html tags.
+    return f"The square root of <b>{input_int}</b> is {square_root}"
 
 
-def federica():
+def mpc_federica(input_int):
     return 0
 
 
-def dave():
+def mpc_dave(input_int):
     return 0
 
 
-def peter():
+def mpc_peter(input_int):
     return 0
 
 
-def paresh():
+def mpc_paresh(input_int):
     return 0
 
 
-def matt():
+def mpc_matt(input_int):
     return 0
 
 
-def rosemary():
+def mpc_rosemary(input_int):
     return 0
 
 
-def mike_a():
+def mpc_mike_a(input_int):
     return 0
 
 
-def mike_r():
+def mpc_mike_r(input_int):
     return 0
 
 
-def margaret():
+def mpc_margaret(input_int):
     return 0
 
 
-def n():
+def mpc_n(input_int):
     return 0

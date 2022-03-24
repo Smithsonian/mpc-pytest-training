@@ -1,5 +1,6 @@
 <ul>
-{% for key, value in d.items() %}
-    <li>{{ key }}: {{ value}} </li>
+    The random input is <b>{{input_int}}</b></br></br></br>
+{% for key, value in team_output.items() %}
+    <li>{{ key }}: {{ value|safe}} </li>
 {% endfor %}
 </ul>
