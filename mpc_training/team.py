@@ -43,7 +43,11 @@ def mpc_mike_r(input_int):
 
 
 def mpc_margaret(input_int):
-    return 0
+
+    # fake addition
+    double = str(input_int)*2
+    
+    return f"{input_int} + {input_int} = "+double
 
 
 def mpc_n(input_int):
