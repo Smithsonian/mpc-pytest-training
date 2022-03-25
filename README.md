@@ -3,6 +3,13 @@
 # mpc-pytest-training
 Repository used for interactive pytest training at the Minor Planet Center. Inside this repository is a simple Flask web application that displays the output from functions you all will implement (and test!). The concept is a random integer will be passed into a premade function with your name on it, and you implement code to do something to the number, and return the result. Below are the steps to follow for this training.
 
+## Agenda
+1. Create Github accounts, and get everyone added to this repository
+2. (optional) [Set up github ssh keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+3. Unit Test Lecture
+4. Interactive pytest exercise (using this repo)
+5. Work together to create a test for some operational code
+
 ## Setup
 1. Clone the repository
 
