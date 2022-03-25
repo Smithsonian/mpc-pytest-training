@@ -11,7 +11,9 @@ def mpc_chris(input_int):
 
 
 def mpc_federica(input_int):
-    return 0
+    #Compute class 2 of the input
+    mod = input_int % 2
+    return  f"The base 2 of <b>{input_int}</b> is {mod}"
 
 
 def mpc_dave(input_int):
