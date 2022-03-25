@@ -6,7 +6,7 @@ Repository used for interactive pytest training at the Minor Planet Center. Insi
 ## Agenda
 1. Create Github accounts, and get everyone added to this repository
 2. (optional) [Set up github ssh keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-3. Unit Test Lecture
+3. [Unit Test Lecture](https://docs.google.com/presentation/d/1_bCQLQ564H-benVRhXpQnSIA3Ko9JyoW/edit?usp=sharing&ouid=100235637949753397026&rtpof=true&sd=true)
 4. Interactive pytest exercise (using this repo)
 5. Work together to create a test for some operational code
 
