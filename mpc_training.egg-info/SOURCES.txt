@@ -1,0 +1,9 @@
+README.md
+setup.py
+mpc_training/__init__.py
+mpc_training/team.py
+mpc_training.egg-info/PKG-INFO
+mpc_training.egg-info/SOURCES.txt
+mpc_training.egg-info/dependency_links.txt
+mpc_training.egg-info/requires.txt
+mpc_training.egg-info/top_level.txt

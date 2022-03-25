@@ -23,8 +23,13 @@ def mpc_peter(input_int):
 
 
 def mpc_paresh(input_int):
-    return 0
+    
+    # Doing same as Chris initially
+    # Compute the square root of the input
+    square_root = math.sqrt(input_int)
 
+    # Return a nice string for Flask to display with the square root result.
+    return f"The square root of <b>{input_int}</b> is {square_root}"    
 
 def mpc_matt(input_int):
     return 0
