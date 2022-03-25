@@ -1,5 +1,6 @@
 from datetime import datetime
 import math
+import numpy as np
 
 
 def mpc_chris(input_int):
@@ -29,7 +30,8 @@ def mpc_paresh(input_int):
 
 
 def mpc_matt(input_int):
-    return 0
+    # return the square of the input.
+    return f"{input_int}^2=", np.asarray(input_int)**2
 
 
 def mpc_rosemary(input_int):
