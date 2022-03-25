@@ -31,9 +31,10 @@ Repository used for interactive pytest training at the Minor Planet Center. Insi
 
     `pytest` 
 6. Go to the `flask_app` directory and run flask. Check that the website shows up
-
-   `cd flask_app; flask run` 
-
+   ```
+   cd flask_app
+   flask run
+   ```
    view at `http://127.0.0.1:5000/`
 
 ## Exercise
@@ -45,11 +46,11 @@ Repository used for interactive pytest training at the Minor Planet Center. Insi
 6. Now test your function manually by restarting flask ("ctrl-c", "flask run"), and refreshing the localhost page which should still be up in your browser. Make sure you see your output, and you are happy with it.  
 7. Add new files to git, Commit and Push your code
 
-   `git add .`
-
-   `git commit -m "Implemented function for your_name, and also a correponding unit test"`
-
-   `git push --set-upstream origin`
-8. Check if your branch passes the tests running in [Github Actions](https://github.com/Smithsonian/mpc-pytest-training/actions) 
-9. Open a [new pull request](https://github.com/Smithsonian/mpc-pytest-training/pulls) for your branch by clicking the green "New Pull Request" button
-10. You are done!  Chris and N will be reviewing the pull requests and merging them.
+   ```
+   git add .
+   git commit -m "Implemented function for your_name, and also a correponding unit test"
+   git push --set-upstream origin
+   ```
+9. Check if your branch passes the tests running in [Github Actions](https://github.com/Smithsonian/mpc-pytest-training/actions) 
+10. Open a [new pull request](https://github.com/Smithsonian/mpc-pytest-training/pulls) for your branch by clicking the green "New Pull Request" button
+11. You are done!  Chris and N will be reviewing the pull requests and merging them.
