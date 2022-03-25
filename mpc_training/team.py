@@ -26,13 +26,11 @@ def mpc_peter(input_int):
 
 
 def mpc_paresh(input_int):
-    
-    # Doing same as Chris initially
-    # Compute the square root of the input
-    square_root = math.sqrt(input_int)
 
+    # Exponential
+    exp = math.exp(input_int)
     # Return a nice string for Flask to display with the square root result.
-    return f"The square root of <b>{input_int}</b> is {square_root}"    
+    return f"The exponential of <b>{input_int}</b> is {exp}"
 
 def mpc_matt(input_int):
     # return the square of the input.
