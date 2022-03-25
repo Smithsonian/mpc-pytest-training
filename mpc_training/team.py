@@ -52,6 +52,6 @@ def mpc_n(input_int):
     normalized = int(input_int*factor)
 
     # Return a nice div for Flask to display with the result as a color.
-    return f"<div style=\"background-color: hsl({normalized}, 100%, 50%); padding: 3em; " \
-           f"width: 10%; margin-left: 5%; text-align: center;\">" \
+    return f"<div style=\"background-color: hsl({normalized}, 100%, 50%); padding: 1em; " \
+           f"width: 10%; margin-left: 5%; text-align: center; font-size: 2rem;\">" \
            f"{input_int}</div>"
