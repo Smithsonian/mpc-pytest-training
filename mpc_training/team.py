@@ -31,7 +31,9 @@ def mpc_matt(input_int):
 
 
 def mpc_rosemary(input_int):
-    return 0
+    # return 10**random value
+    val=10**input_int
+    return f"10^<b>{input_int}</b> is {val}"
 
 
 def mpc_mike_a(input_int):
