@@ -7,7 +7,7 @@ def mpc_chris(input_int):
     square_root = math.sqrt(input_int)
 
     # Return a nice string for Flask to display with the square root result.
-    return f"The square root of <b>{input_int}</b> is {square_root}"
+    return f"The square root of <b>{input_int}</b> is {squ
 
 
 def mpc_federica(input_int):
@@ -18,10 +18,10 @@ def mpc_dave(input_int):
     return 0
 
 
-def mpc_peter(a):
+def mpc_peter(input_int):
     #random function
-    function_=a**3-10
-    return function_
+    function_=a**3-b**2
+    return f"The output of Peter's random function is {function_}"
 
 
 def mpc_paresh(input_int):
