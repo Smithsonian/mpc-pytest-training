@@ -34,8 +34,12 @@ def mpc_rosemary(input_int):
     return 0
 
 
-def mpc_mike_a(input_int):
-    return 0
+def mpc_mikea(input_int):
+    # Compute the semi-major axis of the N:1 resonance with Neptune
+    period = (30.07 ** 1.5) * (input_int * 1./1)
+    semi_major_axis = period ** (2. / 3)
+    return (f"The {input_int}:1 Mean-Motion-Resonance with "
+            f"Neptune is at {semi_major_axis:6.2f} au.")
 
 
 def mpc_mike_r(input_int):
