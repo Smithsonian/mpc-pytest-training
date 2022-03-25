@@ -45,7 +45,7 @@ Repository used for interactive pytest training at the Minor Planet Center. Insi
 6. Now test your function manually by restarting flask ("ctrl-c", "flask run"), and refreshing the localhost page which should still be up in your browser. Make sure you see your output, and you are happy with it.  
 7. Add new files to git, Commit and Push your code
 
-   `git add .`
+   `git add mpc_training/team.py tests/test_*.py`
 
    `git commit -m "Implemented function for your_name, and also a correponding unit test"`
 
