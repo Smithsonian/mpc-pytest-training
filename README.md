@@ -30,9 +30,9 @@ Repository used for interactive pytest training at the Minor Planet Center. Insi
 5. Run pytest and ensure the tests pass
 
     `pytest` 
-6. Run flask and check that the website shows up
+6. Go to the `flask_app` directory and run flask. Check that the website shows up
 
-   `flask run` 
+   `cd flask_app; flask run` 
 
    view at `http://127.0.0.1:5000/`
 
