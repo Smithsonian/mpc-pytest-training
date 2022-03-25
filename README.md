@@ -49,7 +49,7 @@ Repository used for interactive pytest training at the Minor Planet Center. Insi
 
    `git commit -m "Implemented function for your_name, and also a correponding unit test"`
 
-   `git push`
+   `git push --set-upstream origin`
 8. Check if your branch passes the tests running in [Github Actions](https://github.com/Smithsonian/mpc-pytest-training/actions) 
 9. Open a [new pull request](https://github.com/Smithsonian/mpc-pytest-training/pulls) for your branch by clicking the green "New Pull Request" button
 10. You are done!  Chris and N will be reviewing the pull requests and merging them.
