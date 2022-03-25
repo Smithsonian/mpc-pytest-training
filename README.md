@@ -47,7 +47,7 @@ Repository used for interactive pytest training at the Minor Planet Center. Insi
 7. Add new files to git, Commit and Push your code
 
    ```
-   git add .
+   git add mpc_training/team.py tests/test_*.py
    git commit -m "Implemented function for your_name, and also a correponding unit test"
    git push --set-upstream origin
    ```
